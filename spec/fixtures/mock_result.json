@@ -1,0 +1,221 @@
+{
+  "DefinitionSource": "",
+  "Heading": "DuckDuckGo",
+  "ImageWidth": 340,
+  "RelatedTopics": [
+    {
+      "Result": "<a href=\"https://duckduckgo.com/Names_Database\">Names Database</a> - The Names Database is a partially defunct social network, owned and operated by Classmates.com, a wholly owned subsidiary of United Online. The site does not appear to be significantly updated since 2008, and has many broken links and display issues.",
+      "Icon": {
+        "URL": "",
+        "Height": "",
+        "Width": ""
+      },
+      "FirstURL": "https://duckduckgo.com/Names_Database",
+      "Text": "Names Database - The Names Database is a partially defunct social network, owned and operated by Classmates.com, a wholly owned subsidiary of United Online. The site does not appear to be significantly updated since 2008, and has many broken links and display issues."
+    },
+    {
+      "Result": "<a href=\"https://duckduckgo.com/c/Companies_based_in_Chester_County%2C_Pennsylvania\">Companies based in Chester County, Pennsylvania</a>",
+      "Icon": {
+        "URL": "",
+        "Height": "",
+        "Width": ""
+      },
+      "FirstURL": "https://duckduckgo.com/c/Companies_based_in_Chester_County%2C_Pennsylvania",
+      "Text": "Companies based in Chester County, Pennsylvania"
+    },
+    {
+      "Result": "<a href=\"https://duckduckgo.com/c/Tor_hidden_services\">Tor hidden services</a>",
+      "Icon": {
+        "URL": "",
+        "Height": "",
+        "Width": ""
+      },
+      "FirstURL": "https://duckduckgo.com/c/Tor_hidden_services",
+      "Text": "Tor hidden services"
+    },
+    {
+      "Result": "<a href=\"https://duckduckgo.com/c/Internet_privacy_software\">Internet privacy software</a>",
+      "Icon": {
+        "URL": "",
+        "Height": "",
+        "Width": ""
+      },
+      "FirstURL": "https://duckduckgo.com/c/Internet_privacy_software",
+      "Text": "Internet privacy software"
+    },
+    {
+      "Result": "<a href=\"https://duckduckgo.com/c/Perl_software\">Perl software</a>",
+      "Icon": {
+        "URL": "",
+        "Height": "",
+        "Width": ""
+      },
+      "FirstURL": "https://duckduckgo.com/c/Perl_software",
+      "Text": "Perl software"
+    },
+    {
+      "Result": "<a href=\"https://duckduckgo.com/c/Proprietary_cross-platform_software\">Proprietary cross-platform software</a>",
+      "Icon": {
+        "URL": "",
+        "Height": "",
+        "Width": ""
+      },
+      "FirstURL": "https://duckduckgo.com/c/Proprietary_cross-platform_software",
+      "Text": "Proprietary cross-platform software"
+    },
+    {
+      "Result": "<a href=\"https://duckduckgo.com/c/Internet_search_engines\">Internet search engines</a>",
+      "Icon": {
+        "URL": "",
+        "Height": "",
+        "Width": ""
+      },
+      "FirstURL": "https://duckduckgo.com/c/Internet_search_engines",
+      "Text": "Internet search engines"
+    },
+    {
+      "Result": "<a href=\"https://duckduckgo.com/c/Android_(operating_system)_software\">Android (operating system) software</a>",
+      "Icon": {
+        "URL": "",
+        "Height": "",
+        "Width": ""
+      },
+      "FirstURL": "https://duckduckgo.com/c/Android_(operating_system)_software",
+      "Text": "Android (operating system) software"
+    }
+  ],
+  "Entity": "website",
+  "meta": {
+    "maintainer": {
+      "github": "duckduckgo"
+    },
+    "perl_module": "DDG::Fathead::Wikipedia",
+    "status": "live",
+    "production_state": "online",
+    "dev_date": null,
+    "js_callback_name": "wikipedia",
+    "signal_from": "wikipedia_fathead",
+    "live_date": null,
+    "src_id": 1,
+    "src_options": {
+      "skip_end": "0",
+      "skip_abstract": 0,
+      "skip_qr": "",
+      "language": "en",
+      "skip_icon": 0,
+      "skip_image_name": 0,
+      "directory": "",
+      "min_abstract_length": "20",
+      "skip_abstract_paren": 0,
+      "is_wikipedia": 1,
+      "source_skip": "",
+      "is_fanon": 0,
+      "is_mediawiki": 1,
+      "src_info": ""
+    },
+    "repo": "fathead",
+    "developer": [
+      {
+        "url": "http://www.duckduckhack.com",
+        "name": "DDG Team",
+        "type": "ddg"
+      }
+    ],
+    "tab": "About",
+    "producer": null,
+    "unsafe": 0,
+    "id": "wikipedia_fathead",
+    "dev_milestone": "live",
+    "topic": [
+      "productivity"
+    ],
+    "name": "Wikipedia",
+    "attribution": null,
+    "created_date": null,
+    "example_query": "nikola tesla",
+    "description": "Wikipedia",
+    "is_stackexchange": null,
+    "designer": null,
+    "src_domain": "en.wikipedia.org",
+    "src_name": "Wikipedia",
+    "blockgroup": null,
+    "src_url": null
+  },
+  "Type": "A",
+  "Redirect": "",
+  "DefinitionURL": "",
+  "AbstractURL": "https://en.wikipedia.org/wiki/DuckDuckGo",
+  "Definition": "",
+  "AbstractSource": "Wikipedia",
+  "Infobox": {
+    "content": [
+      {
+        "data_type": "string",
+        "sort_order": "1",
+        "value": "The search engine that doesn't track you.",
+        "label": "Slogan",
+        "wiki_order": 1
+      },
+      {
+        "data_type": "string",
+        "sort_order": "1",
+        "value": "Web search engine",
+        "label": "Type of site",
+        "wiki_order": 3
+      },
+      {
+        "data_type": "string",
+        "sort_order": "2",
+        "value": "DuckDuckGo, Inc.",
+        "label": "Owner",
+        "wiki_order": 7
+      },
+      {
+        "data_type": "string",
+        "sort_order": "3",
+        "value": "Gabriel Weinberg",
+        "label": "Created by",
+        "wiki_order": 8
+      },
+      {
+        "data_type": "string",
+        "sort_order": "3",
+        "value": "September 25, 2008",
+        "label": "Launched",
+        "wiki_order": 9
+      },
+      {
+        "data_type": "string",
+        "sort_order": "4",
+        "value": "560 (December 16, 2016)",
+        "label": "Alexa rank",
+        "wiki_order": 10
+      }
+    ],
+    "meta": [
+      {
+        "data_type": "string",
+        "value": "DuckDuckGo",
+        "label": "article_title"
+      },
+      {
+        "data_type": "string",
+        "value": "infobox website",
+        "label": "template_name"
+      },
+      {
+        "data_type": "string",
+        "value": "website",
+        "label": "formatting_rules"
+      }
+    ]
+  },
+  "Image": "https://duckduckgo.com/i/adad4e5c.png",
+  "ImageIsLogo": 1,
+  "Abstract": "DuckDuckGo is an Internet search engine that emphasizes protecting searchers' privacy and avoiding the filter bubble of personalized search results. DuckDuckGo distinguishes itself from other search engines by not profiling its users and by deliberately showing all users the same search results for a given search term. DuckDuckGo emphasizes getting information from the best sources rather than the most sources, generating its search results from key crowdsourced sites such as Wikipedia and from partnerships with other search engines like Yandex, Yahoo!, Bing, and Yummly.",
+  "AbstractText": "DuckDuckGo is an Internet search engine that emphasizes protecting searchers' privacy and avoiding the filter bubble of personalized search results. DuckDuckGo distinguishes itself from other search engines by not profiling its users and by deliberately showing all users the same search results for a given search term. DuckDuckGo emphasizes getting information from the best sources rather than the most sources, generating its search results from key crowdsourced sites such as Wikipedia and from partnerships with other search engines like Yandex, Yahoo!, Bing, and Yummly.",
+  "AnswerType": "",
+  "ImageHeight": 270,
+  "Answer": "",
+  "Results": []
+}
