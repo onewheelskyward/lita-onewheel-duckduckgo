@@ -21,7 +21,7 @@ module Lita
       end
 
       def get_result(query)
-        result = RestClient.get("http://api.duckduckgo.com/?q=#{query}&format=json")
+        JSON.parse(RestClient.get("http://api.duckduckgo.com/?q=#{query}&format=json"))
       end
 
       Lita.register_handler(self)
