@@ -13,11 +13,10 @@ module Lita
         Lita.logger.debug "Querying for #{query}"
         result = get_result(query)
         Lita.logger.debug "Result: #{result}"
-        reply = 'DuckDuckGo Result: '
         if result['Abstract'].empty?
-          reply += result['AbstractURL']
+          reply = result['AbstractURL']
         else
-          reply += result['Abstract'][0..250]
+          reply = result['Abstract'][0..250]
         end
         Lita.logger.debug "Reply: #{reply}"
         response.reply reply

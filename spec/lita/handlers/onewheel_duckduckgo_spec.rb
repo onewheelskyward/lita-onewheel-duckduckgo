@@ -18,18 +18,18 @@ describe Lita::Handlers::OnewheelDuckDuckGo, lita_handler: true do
   it 'does neat ducky things' do
     mock('mock_result')
     send_command 'duck yo'
-    expect(replies.last).to include('DuckDuckGo Result: DuckDuckGo is an Internet search engine that emphasizes')
+    expect(replies.last).to include('DuckDuckGo is an Internet search engine that emphasizes')
   end
 
   it 'uses the url unless the abstract exists' do
     mock('mock_no_abstract')
     send_command 'duck yo'
-    expect(replies.last).to include('DuckDuckGo Result: https://en.wikipedia.org/wiki/Duck_(disambiguation)')
+    expect(replies.last).to include('https://en.wikipedia.org/wiki/Duck_(disambiguation)')
   end
 
   it 'checks for go' do
     mock('mock_go')
     send_command 'duck go'
-    expect(replies.last).to include('DuckDuckGo Result: https://en.wikipedia.org/wiki/Go')
+    expect(replies.last).to include('https://en.wikipedia.org/wiki/Go')
   end
 end
