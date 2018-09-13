@@ -12,6 +12,8 @@ describe Lita::Handlers::OnewheelDuckDuckGo, lita_handler: true do
   end
 
   it { is_expected.to route_command('duck something') }
+  it { is_expected.to route_command('quack something') }
+  it { is_expected.to route_command('ddg something') }
 
   it 'does neat ducky things' do
     mock('mock_result')

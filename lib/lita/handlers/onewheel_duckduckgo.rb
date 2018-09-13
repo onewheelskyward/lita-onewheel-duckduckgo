@@ -4,6 +4,9 @@ module Lita
   module Handlers
     class OnewheelDuckDuckGo < Handler
       route /^duck\s+(.*)$/, :search, command: true
+      route /^quack\s+(.*)$/, :search, command: true
+      route /^ddg\s+(.*)$/, :search, command: true
+      route /^fuck\s+(.*)$/, :search, command: true
 
       def search(response)
         query = response.matches[0][0]
